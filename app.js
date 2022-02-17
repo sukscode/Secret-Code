@@ -11,6 +11,7 @@ const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const FacebookStrategy = require("passport-facebook").Strategy;
 const findOrCreate=require("mongoose-findorcreate");
 const http = require('http');
+const port = process.env.PORT || 3000
 //const encrypt=require("mongoose-encryption");
 //const md5=require("md5");
 // const bcrypt=require("bcrypt");
